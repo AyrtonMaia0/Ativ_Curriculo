@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #561655;
+    font-family: 'EB Garamond', serif;
+}
+
+
+
+.topo{
+    margin-top: 0px;
+    margin-bottom: 3%;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    background-color: #6f0d6e;
+    color: #c4cbcb;
+}
+
+
+
+/* Contents */
+main{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 0%;
+}
+.rigth{
+    width: 10%;
+}
+
+
+
+/* Imagem */
+.campo_img{
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 20px;
+    background-color: /*#6f95e9c4;*/#2c002b;/*#7a6448;*/
+    margin-bottom: 2.23%;
+    border-radius: 8px;
+}
+.img_profile{    
+    border-radius: 50%;
+    width: 80%;
+    padding-top: 5%;
+}
+
+h3{
+    text-align: left;
+    padding-top: 8%;
+    color: #60a1a1;
+}
+.p_h3{
+    text-align: left;
+    color: /*#a2e0e0;*/#e3c2c2;
+}
+.dois{
+    width: 2.5%;
+}
+
+
+
+/* Description */
+.description{
+    margin: center;
+    padding-left: 0%;
+    padding-right: 7%;
+}
+article{
+    width: 110%;
+    margin-top: 2.3%;
+    /*border-style: double;*/
+    border-color: #9500ec;
+    background-color: /*#2f155a94;#cdb28a;*/#712071;
+    border-radius: 8px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 5%;
+}
+
+.h_desc{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 2%;
+    color: /*#6903857f;#0b0b0b;*/ #4adfdfba;
+}
+
+.p_desc{
+    margin-top: 20px;
+    text-align: justify;
+    padding-bottom: 20px;
+    color: /*#0e0d0e7f;*/#e7dbdb;
+}
+
+.tres{
+    width: 2.5%;
+}
+
+
+
+
+
+/* Contacts */
+.contacts{
+    margin-top: 20px;
+    /*border-style: double;*/
+    width: 34%;
+    /*border-color: #3e2dfc;*/
+    background-color: #2c002b;/*#7a6448;*/
+    border-radius: 8px;
+    margin-bottom: 2.3%;
+}
+
+aside{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.h_contt{
+    padding-top: 10%;
+    text-align: center;
+    color: #cbd7d7;
+}
+
+.p_contt{
+    margin-top: 12%;
+    margin-bottom: 3%;
+    padding-left: 4%;
+    font-size: 18px;
+    color: #ffd8d8;
+}
+
+aside a{
+    margin-left: 5px;
+    text-decoration: none;
+    padding: 3px 10px;
+    border-radius: 4px;
+    background-color: #d5d5d5;
+}
+aside a:hover{
+    background-color: #d918f3;
+}
+
+
+.left{
+    width: 8%;
+}
+
+
+
+footer{
+    text-align: center;
+    padding-left: 3%;
+    padding-top: 1%;
+    color: #e7dbdb;
+    font-size: 18px;
+    height: 200px;
+}
+footer a{
+    padding: 3px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #cbd7d7;
+}
+footer a:hover{
+    background-color: #d918f3;
+}
+
+.p_form{
+   padding: 0px -2px;
+}
+
+/*<a href = "mailto:karolaynessantoscontato@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+*/
+
+
+/*---------------------Form---------------------*/
+
+
+
+.title{
+    text-align: center;
+    padding-top: 4%;
+    padding-right: 0.5%;
+    color: #3d2e2e;
+}
+
+.global{
+    display: flex;
+}
+
+.first{
+    width: 35%;
+}
+
+.second{
+    font-size: 15px;
+    padding-top: 3%;
+    width: 20%;
+}
+
+.cp{
+    height: 25%;
+}
+
+.h2_{
+    padding-top: 4%;
+}
+
+.input_ass{
+    height: 40px;
+    width: 160%;
+    background-color: #b5b5b586;
+}
+.input_emp{
+    height: 30%;
+    width: 110%;
+    background-color: #b5b5b586;
+}
+.input_det{
+    height: 70%;
+    width: 170%;
+    background-color: #b5b5b586;
+}
+.div_button{
+    padding-left: 210px;
+    padding-top: 50px;
+}
+.button{
+    width: 100px;
+    height: 25px;
+    border-radius: 6px;
+
+}
+.div_button:hover button:hover{
+    background-color: #b310b1;
+}
+
+.third{
+    width: 45%;
+}
+
+.msg{
+    text-align: right;
+    padding-top: 600px;
+    padding-right: 2%;
+    font-style: italic;
+    font-size: 40px;
+    color: #8e9090;
+    
+}
